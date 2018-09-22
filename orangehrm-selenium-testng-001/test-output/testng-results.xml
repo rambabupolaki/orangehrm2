@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Redirecting to Admin page.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking on Add User Button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_01_ValidateaddingUserWithAllFields</b><br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :F<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :word5585<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Password. :Anusha@123<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Confirm password. :Anusha@123<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering User name Search input :word5585<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Search Button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Fetching User Name<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: green;font-size: 14px;'>Expected [ word5585 ] : Actual [ word5585 ]<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="./Screenshot/1534695591079.png">ScreenShot : Validating User Name<br></a>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking on Add User Button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_02_ValidateaddingUserWithMandatoryFields</b><br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :F<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :battaglia5592<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering User name Search input :battaglia5592<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Search Button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Fetching User Name<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: green;font-size: 14px;'>Expected [ battaglia5592 ] : Actual [ battaglia5592 ]<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="./Screenshot/1534695613504.png">ScreenShot : Validating User Name<br></a>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking on Add User Button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_03_NullValueInEmployeeNameField</b><br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :burroughs5615<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Fetching Validation Error<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: green;font-size: 14px;'>Expected [ Required ] : Actual [ Required ]<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="./Screenshot/1534695615787.png">ScreenShot : Validating Validation Error<br></a>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Redirecting to Admin page.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_01_ValidateaddingJobWithAllFields</b><br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking on Add Job Button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Job Title. :Sales<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Job Description. :Testing<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Selecting file. :E:\Anusha\Manual\Pictures\123.png<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Note. :Testing note<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: darkblue;font-size: 14px;'>Fetching job creation popup.<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color: red;font-size: 18px;'><br>Expected [ Successfully Saved Close ] : Actual [ Successfully Saved
+Close ]<br></span>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="E:\Anusha\Selenium\23-07-2018\workspace\orangehrm-selenium-testng-001/build/reports/ExtentReports/Screenshot/1534695642486.png">ScreenShot<br></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="ORANGE HRM Suite" duration-ms="74482" started-at="2018-08-19T16:19:29Z" finished-at="2018-08-19T16:20:43Z">
+    <groups>
+      <group name="auth-Anusha">
+        <method signature="TS_01_Verify_Users_Module.TC_01_ValidateaddingUserWithAllFields()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_01_ValidateaddingUserWithAllFields" class="orange.hrm.tests.TS_01_Verify_Users_Module"/>
+        <method signature="TS_01_Verify_Users_Module.TC_02_ValidateaddingUserWithMandatoryFields()[pri:1, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_02_ValidateaddingUserWithMandatoryFields" class="orange.hrm.tests.TS_01_Verify_Users_Module"/>
+        <method signature="TS_01_Verify_Users_Module.TC_03_NullValueInEmployeeNameField()[pri:2, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_03_NullValueInEmployeeNameField" class="orange.hrm.tests.TS_01_Verify_Users_Module"/>
+        <method signature="TS_02_Verify_Job_Module.TC_01_ValidateaddingJobWithAllFields()[pri:0, instance:orange.hrm.tests.TS_02_Verify_Job_Module@2eda0940]" name="TC_01_ValidateaddingJobWithAllFields" class="orange.hrm.tests.TS_02_Verify_Job_Module"/>
+      </group> <!-- auth-Anusha -->
+      <group name="mod-Job">
+        <method signature="TS_02_Verify_Job_Module.TC_01_ValidateaddingJobWithAllFields()[pri:0, instance:orange.hrm.tests.TS_02_Verify_Job_Module@2eda0940]" name="TC_01_ValidateaddingJobWithAllFields" class="orange.hrm.tests.TS_02_Verify_Job_Module"/>
+      </group> <!-- mod-Job -->
+      <group name="mod-Admin">
+        <method signature="TS_01_Verify_Users_Module.TC_01_ValidateaddingUserWithAllFields()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_01_ValidateaddingUserWithAllFields" class="orange.hrm.tests.TS_01_Verify_Users_Module"/>
+        <method signature="TS_01_Verify_Users_Module.TC_02_ValidateaddingUserWithMandatoryFields()[pri:1, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_02_ValidateaddingUserWithMandatoryFields" class="orange.hrm.tests.TS_01_Verify_Users_Module"/>
+        <method signature="TS_01_Verify_Users_Module.TC_03_NullValueInEmployeeNameField()[pri:2, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_03_NullValueInEmployeeNameField" class="orange.hrm.tests.TS_01_Verify_Users_Module"/>
+      </group> <!-- mod-Admin -->
+    </groups>
+    <test name="TS_01_Verify_Users_Module" duration-ms="47962" started-at="2018-08-19T16:19:29Z" finished-at="2018-08-19T16:20:17Z">
+      <class name="orange.hrm.tests.TS_01_Verify_Users_Module">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="beforeClass" is-config="true" duration-ms="14291" started-at="2018-08-19T16:19:29Z" finished-at="2018-08-19T16:19:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Redirecting to Admin page.<br></span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="beforeMethod" is-config="true" duration-ms="1657" started-at="2018-08-19T16:19:43Z" finished-at="2018-08-19T16:19:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking on Add User Button.<br></span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_01_ValidateaddingUserWithAllFields()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_01_ValidateaddingUserWithAllFields" duration-ms="6314" started-at="2018-08-19T16:19:45Z" description="This testcase is related to Add User with all fields" finished-at="2018-08-19T16:19:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_01_ValidateaddingUserWithAllFields</b><br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :F<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :word5585<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Password. :Anusha@123<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Confirm password. :Anusha@123<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering User name Search input :word5585<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Search Button.<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Fetching User Name<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: green;font-size: 14px;'>Expected [ word5585 ] : Actual [ word5585 ]<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="./Screenshot/1534695591079.png">ScreenShot : Validating User Name<br></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_ValidateaddingUserWithAllFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-19T16:19:51Z" finished-at="2018-08-19T16:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="beforeMethod" is-config="true" duration-ms="1245" started-at="2018-08-19T16:19:51Z" finished-at="2018-08-19T16:19:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking on Add User Button.<br></span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_02_ValidateaddingUserWithMandatoryFields()[pri:1, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_02_ValidateaddingUserWithMandatoryFields" duration-ms="21107" started-at="2018-08-19T16:19:52Z" description="This testcase is related to Add User with mandatory fields" finished-at="2018-08-19T16:20:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_02_ValidateaddingUserWithMandatoryFields</b><br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :F<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :battaglia5592<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering User name Search input :battaglia5592<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Search Button.<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Fetching User Name<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: green;font-size: 14px;'>Expected [ battaglia5592 ] : Actual [ battaglia5592 ]<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="./Screenshot/1534695613504.png">ScreenShot : Validating User Name<br></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_ValidateaddingUserWithMandatoryFields -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="beforeMethod" is-config="true" duration-ms="1304" started-at="2018-08-19T16:20:13Z" finished-at="2018-08-19T16:20:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking on Add User Button.<br></span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-19T16:20:13Z" finished-at="2018-08-19T16:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_03_NullValueInEmployeeNameField()[pri:2, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="TC_03_NullValueInEmployeeNameField" duration-ms="958" started-at="2018-08-19T16:20:15Z" description="This testcase is related to validate null value in Employee name field" finished-at="2018-08-19T16:20:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_03_NullValueInEmployeeNameField</b><br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :burroughs5615<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Fetching Validation Error<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: green;font-size: 14px;'>Expected [ Required ] : Actual [ Required ]<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="./Screenshot/1534695615787.png">ScreenShot : Validating Validation Error<br></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_NullValueInEmployeeNameField -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="afterClass" is-config="true" duration-ms="1058" started-at="2018-08-19T16:20:16Z" finished-at="2018-08-19T16:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-19T16:20:16Z" finished-at="2018-08-19T16:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- orange.hrm.tests.TS_01_Verify_Users_Module -->
+    </test> <!-- TS_01_Verify_Users_Module -->
+    <test name="TS_02_Verify_Job_Module" duration-ms="26494" started-at="2018-08-19T16:20:17Z" finished-at="2018-08-19T16:20:43Z">
+      <class name="orange.hrm.tests.TS_02_Verify_Job_Module">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:orange.hrm.tests.TS_02_Verify_Job_Module@2eda0940]" name="beforeClass" is-config="true" duration-ms="13824" started-at="2018-08-19T16:20:17Z" finished-at="2018-08-19T16:20:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Redirecting to Admin page.<br></span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:orange.hrm.tests.TS_02_Verify_Job_Module@2eda0940]" name="beforeMethod" is-config="true" duration-ms="972" started-at="2018-08-19T16:20:31Z" finished-at="2018-08-19T16:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_01_ValidateaddingJobWithAllFields()[pri:0, instance:orange.hrm.tests.TS_02_Verify_Job_Module@2eda0940]" name="TC_01_ValidateaddingJobWithAllFields" duration-ms="10787" started-at="2018-08-19T16:20:31Z" description="This testcase is related to Add Job with all fields" finished-at="2018-08-19T16:20:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_01_ValidateaddingJobWithAllFields</b><br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking on Add Job Button.<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Job Title. :Sales<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Job Description. :Testing<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Selecting file. :E:\Anusha\Manual\Pictures\123.png<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Entering Note. :Testing note<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: darkblue;font-size: 14px;'>Fetching job creation popup.<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color: red;font-size: 18px;'><br>Expected [ Successfully Saved Close ] : Actual [ Successfully Saved
+Close ]<br></span>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="E:\Anusha\Selenium\23-07-2018\workspace\orangehrm-selenium-testng-001/build/reports/ExtentReports/Screenshot/1534695642486.png">ScreenShot<br></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_ValidateaddingJobWithAllFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:orange.hrm.tests.TS_02_Verify_Job_Module@2eda0940]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-19T16:20:42Z" finished-at="2018-08-19T16:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:orange.hrm.tests.TS_02_Verify_Job_Module@2eda0940]" name="afterClass" is-config="true" duration-ms="908" started-at="2018-08-19T16:20:42Z" finished-at="2018-08-19T16:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- orange.hrm.tests.TS_02_Verify_Job_Module -->
+    </test> <!-- TS_02_Verify_Job_Module -->
+  </suite> <!-- ORANGE HRM Suite -->
+</testng-results>

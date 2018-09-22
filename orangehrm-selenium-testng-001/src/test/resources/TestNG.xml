@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ORANGE HRM Suite">
+
+	<test verbose="2" name="TS_01_Verify_Users_Module">
+		<classes>
+			<class name="orange.hrm.tests.TS_01_Verify_Users_Module" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="TS_02_Verify_Job_Module">
+		<classes>
+			<class name="orange.hrm.tests.TS_02_Verify_Job_Module" />
+		</classes>
+	</test>
+</suite>
+	

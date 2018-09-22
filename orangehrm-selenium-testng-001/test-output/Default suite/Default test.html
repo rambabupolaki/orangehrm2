@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 19 08:08:34 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>54 seconds (54760 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='orange.hrm.tests.TS_01_Verify_Users_Module.TC_01_ValidateaddingUserWithAllFields()'><b>TC_01_ValidateaddingUserWithAllFields</b><br>Test class: orange.hrm.tests.TS_01_Verify_Users_Module<br>Test method: This testcase is related to Add User with all fields<br/>
+<a href="#Output-2113604623" onClick='toggleBox("Output-2113604623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2113604623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2113604623">
+<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_01_ValidateaddingUserWithAllFields</b><br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :F<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :weis6329<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering Password. :Anusha@123<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering Confirm password. :Anusha@123<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering User name Search input :weis6329<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Clicking On Search Button.<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Fetching User Name<br></span><br/>
+<span style='color: green;font-size: 14px;'>Expected [ weis6329 ] : Actual [ weis6329 ]<br></span><br/>
+<a href="./Screenshot/1534646334527.png">ScreenShot : Validating User Name<br></a><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3</td></tr>
+<tr>
+<td title='orange.hrm.tests.TS_01_Verify_Users_Module.TC_02_ValidateaddingUserWithMandatoryFields()'><b>TC_02_ValidateaddingUserWithMandatoryFields</b><br>Test class: orange.hrm.tests.TS_01_Verify_Users_Module<br>Test method: This testcase is related to Add User with mandatory fields<br/>
+<a href="#Output-90567568" onClick='toggleBox("Output-90567568", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-90567568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-90567568">
+<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_02_ValidateaddingUserWithMandatoryFields</b><br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :F<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :hyman6336<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering User name Search input :hyman6336<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Clicking On Search Button.<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Fetching User Name<br></span><br/>
+<span style='color: green;font-size: 14px;'>Expected [ hyman6336 ] : Actual [ hyman6336 ]<br></span><br/>
+<a href="./Screenshot/1534646366391.png">ScreenShot : Validating User Name<br></a><br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3</td></tr>
+<tr>
+<td title='orange.hrm.tests.TS_01_Verify_Users_Module.TC_03_NullValueInEmployeeNameField()'><b>TC_03_NullValueInEmployeeNameField</b><br>Test class: orange.hrm.tests.TS_01_Verify_Users_Module<br>Test method: This testcase is related to validate null value in Employee name field<br/>
+<a href="#Output-1096485705" onClick='toggleBox("Output-1096485705", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1096485705" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1096485705">
+<span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_03_NullValueInEmployeeNameField</b><br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :brantley6368<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span><br/>
+<span style='color: darkblue;font-size: 14px;'>Fetching Validation Error<br></span><br/>
+<span style='color: green;font-size: 14px;'>Expected [ Required ] : Actual [ Required ]<br></span><br/>
+<a href="./Screenshot/1534646369026.png">ScreenShot : Validating Validation Error<br></a><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>orange.hrm.tests.TS_01_Verify_Users_Module@28ac3dc3</td></tr>
+</table><p>
+</body>
+</html>

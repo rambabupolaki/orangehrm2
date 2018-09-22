@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 4, Errors: 0, Skipped: 12, Time elapsed: 110.679 sec <<< FAILURE! - in TestSuite
+beforeClass(orange.hrm.tests.TS_01_Verify_Users_Module)  Time elapsed: 47.087 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'divya', ip: '192.168.100.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at orange.hrm.tests.TS_01_Verify_Users_Module.beforeClass(TS_01_Verify_Users_Module.java:33)
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'divya', ip: '192.168.100.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at orange.hrm.tests.TS_01_Verify_Users_Module.beforeClass(TS_01_Verify_Users_Module.java:33)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:?????/status] to be available after ????? ms
+	at orange.hrm.tests.TS_01_Verify_Users_Module.beforeClass(TS_01_Verify_Users_Module.java:33)
+Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
+	at orange.hrm.tests.TS_01_Verify_Users_Module.beforeClass(TS_01_Verify_Users_Module.java:33)
+Caused by: java.util.concurrent.TimeoutException
+	at orange.hrm.tests.TS_01_Verify_Users_Module.beforeClass(TS_01_Verify_Users_Module.java:33)
+
+afterClass(orange.hrm.tests.TS_01_Verify_Users_Module)  Time elapsed: 20.536 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'divya', ip: '192.168.100.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at orange.hrm.tests.TS_01_Verify_Users_Module.afterClass(TS_01_Verify_Users_Module.java:43)
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'divya', ip: '192.168.100.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at orange.hrm.tests.TS_01_Verify_Users_Module.afterClass(TS_01_Verify_Users_Module.java:43)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:?????/status] to be available after ????? ms
+	at orange.hrm.tests.TS_01_Verify_Users_Module.afterClass(TS_01_Verify_Users_Module.java:43)
+Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
+	at orange.hrm.tests.TS_01_Verify_Users_Module.afterClass(TS_01_Verify_Users_Module.java:43)
+Caused by: java.util.concurrent.TimeoutException
+	at orange.hrm.tests.TS_01_Verify_Users_Module.afterClass(TS_01_Verify_Users_Module.java:43)
+
+beforeClass(orange.hrm.tests.TS_02_Verify_Job_Module)  Time elapsed: 41.301 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'divya', ip: '192.168.100.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at orange.hrm.tests.TS_02_Verify_Job_Module.beforeClass(TS_02_Verify_Job_Module.java:36)
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'divya', ip: '192.168.100.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at orange.hrm.tests.TS_02_Verify_Job_Module.beforeClass(TS_02_Verify_Job_Module.java:36)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:????/status] to be available after ????? ms
+	at orange.hrm.tests.TS_02_Verify_Job_Module.beforeClass(TS_02_Verify_Job_Module.java:36)
+Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
+	at orange.hrm.tests.TS_02_Verify_Job_Module.beforeClass(TS_02_Verify_Job_Module.java:36)
+Caused by: java.util.concurrent.TimeoutException
+	at orange.hrm.tests.TS_02_Verify_Job_Module.beforeClass(TS_02_Verify_Job_Module.java:36)
+
+afterClass(orange.hrm.tests.TS_02_Verify_Job_Module)  Time elapsed: 20.546 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'divya', ip: '192.168.100.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at orange.hrm.tests.TS_02_Verify_Job_Module.afterClass(TS_02_Verify_Job_Module.java:46)
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'divya', ip: '192.168.100.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at orange.hrm.tests.TS_02_Verify_Job_Module.afterClass(TS_02_Verify_Job_Module.java:46)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:?????/status] to be available after ????? ms
+	at orange.hrm.tests.TS_02_Verify_Job_Module.afterClass(TS_02_Verify_Job_Module.java:46)
+Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
+	at orange.hrm.tests.TS_02_Verify_Job_Module.afterClass(TS_02_Verify_Job_Module.java:46)
+Caused by: java.util.concurrent.TimeoutException
+	at orange.hrm.tests.TS_02_Verify_Job_Module.afterClass(TS_02_Verify_Job_Module.java:46)
+

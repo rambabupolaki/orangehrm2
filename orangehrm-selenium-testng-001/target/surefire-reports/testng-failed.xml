@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ORANGE HRM Suite]">
+  <test name="TS_01_Verify_Users_Module(failed)">
+    <classes>
+      <class name="orange.hrm.tests.TS_02_Verify_Job_Module">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- orange.hrm.tests.TS_02_Verify_Job_Module -->
+      <class name="orange.hrm.tests.TS_01_Verify_Users_Module">
+        <methods>
+          <include name="TC_02_ValidateaddingUserWithMandatoryFields"/>
+          <include name="TC_03_NullValueInEmployeeNameField"/>
+          <include name="TC_01_ValidateaddingUserWithAllFields"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- orange.hrm.tests.TS_01_Verify_Users_Module -->
+    </classes>
+  </test> <!-- TS_01_Verify_Users_Module(failed) -->
+  <test name="TS_02_Verify_Job_Module(failed)">
+    <classes>
+      <class name="orange.hrm.tests.TS_02_Verify_Job_Module">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_ValidateaddingJobWithAllFields"/>
+        </methods>
+      </class> <!-- orange.hrm.tests.TS_02_Verify_Job_Module -->
+      <class name="orange.hrm.tests.TS_01_Verify_Users_Module">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- orange.hrm.tests.TS_01_Verify_Users_Module -->
+    </classes>
+  </test> <!-- TS_02_Verify_Job_Module(failed) -->
+</suite> <!-- Failed suite [ORANGE HRM Suite] -->

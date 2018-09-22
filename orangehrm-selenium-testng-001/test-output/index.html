@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ORANGE_HRM_Suite">
+              <span class="suite-name border-passed">ORANGE HRM Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ORANGE_HRM_Suite">
+                    <span>E:\Anusha\Selenium\23-07-2018\workspace\orangehrm-selenium-testng-001\src\test\resources\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ORANGE_HRM_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ORANGE_HRM_Suite">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ORANGE_HRM_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ORANGE_HRM_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ORANGE_HRM_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ORANGE_HRM_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ORANGE_HRM_Suite" class="hide-methods passed suite-ORANGE_HRM_Suite"> (hide)</a> <!-- hide-methods passed suite-ORANGE_HRM_Suite -->
+                      <a href="#" panel-name="suite-ORANGE_HRM_Suite" class="show-methods passed suite-ORANGE_HRM_Suite"> (show)</a> <!-- show-methods passed suite-ORANGE_HRM_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-ORANGE_HRM_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ORANGE_HRM_Suite" title="orange.hrm.tests.TS_02_Verify_Job_Module" hash-for-method="TC_01_ValidateaddingJobWithAllFields">TC_01_ValidateaddingJobWithAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ORANGE_HRM_Suite" title="orange.hrm.tests.TS_01_Verify_Users_Module" hash-for-method="TC_01_ValidateaddingUserWithAllFields">TC_01_ValidateaddingUserWithAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ORANGE_HRM_Suite" title="orange.hrm.tests.TS_01_Verify_Users_Module" hash-for-method="TC_02_ValidateaddingUserWithMandatoryFields">TC_02_ValidateaddingUserWithMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ORANGE_HRM_Suite" title="orange.hrm.tests.TS_01_Verify_Users_Module" hash-for-method="TC_03_NullValueInEmployeeNameField">TC_03_NullValueInEmployeeNameField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ORANGE_HRM_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ORANGE_HRM_Suite" class="panel ORANGE_HRM_Suite">
+          <div class="suite-ORANGE_HRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">orange.hrm.tests.TS_02_Verify_Job_Module</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_ValidateaddingJobWithAllFields">
+                  </a> <!-- TC_01_ValidateaddingJobWithAllFields -->
+                  <span class="method-name">TC_01_ValidateaddingJobWithAllFields</span>
+                  <em>
+(This testcase is related to Add Job with all fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ORANGE_HRM_Suite-class-passed -->
+          <div class="suite-ORANGE_HRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">orange.hrm.tests.TS_01_Verify_Users_Module</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_ValidateaddingUserWithAllFields">
+                  </a> <!-- TC_01_ValidateaddingUserWithAllFields -->
+                  <span class="method-name">TC_01_ValidateaddingUserWithAllFields</span>
+                  <em>
+(This testcase is related to Add User with all fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_ValidateaddingUserWithMandatoryFields">
+                  </a> <!-- TC_02_ValidateaddingUserWithMandatoryFields -->
+                  <span class="method-name">TC_02_ValidateaddingUserWithMandatoryFields</span>
+                  <em>
+(This testcase is related to Add User with mandatory fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_NullValueInEmployeeNameField">
+                  </a> <!-- TC_03_NullValueInEmployeeNameField -->
+                  <span class="method-name">TC_03_NullValueInEmployeeNameField</span>
+                  <em>
+(This testcase is related to validate null value in Employee name field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ORANGE_HRM_Suite-class-passed -->
+        </div> <!-- panel ORANGE_HRM_Suite -->
+        <div panel-name="test-xml-ORANGE_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Anusha\Selenium\23-07-2018\workspace\orangehrm-selenium-testng-001\src\test\resources\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ORANGE HRM Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;TS_01_Verify_Users_Module&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;orange.hrm.tests.TS_01_Verify_Users_Module&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS_01_Verify_Users_Module --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;TS_02_Verify_Job_Module&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;orange.hrm.tests.TS_02_Verify_Job_Module&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS_02_Verify_Job_Module --&gt;
+&lt;/suite&gt; &lt;!-- ORANGE HRM Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ORANGE_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ORANGE HRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TS_01_Verify_Users_Module (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TS_02_Verify_Job_Module (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ORANGE_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ORANGE HRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">auth-Anusha</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_01_ValidateaddingJobWithAllFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_01_ValidateaddingUserWithAllFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_02_ValidateaddingUserWithMandatoryFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_03_NullValueInEmployeeNameField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">mod-Admin</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_01_ValidateaddingUserWithAllFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_02_ValidateaddingUserWithMandatoryFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_03_NullValueInEmployeeNameField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">mod-Job</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_01_ValidateaddingJobWithAllFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ORANGE_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ORANGE HRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ORANGE_HRM_Suite');
+function tableData_ORANGE_HRM_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_02_ValidateaddingUserWithMandatoryFields')
+data.setCell(0, 2, 'orange.hrm.tests.TS_01_Verify_Users_Module')
+data.setCell(0, 3, 21107);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_01_ValidateaddingJobWithAllFields')
+data.setCell(1, 2, 'orange.hrm.tests.TS_02_Verify_Job_Module')
+data.setCell(1, 3, 10787);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_01_ValidateaddingUserWithAllFields')
+data.setCell(2, 2, 'orange.hrm.tests.TS_01_Verify_Users_Module')
+data.setCell(2, 3, 6314);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_03_NullValueInEmployeeNameField')
+data.setCell(3, 2, 'orange.hrm.tests.TS_01_Verify_Users_Module')
+data.setCell(3, 3, 958);
+window.suiteTableData['ORANGE_HRM_Suite']= { tableData: data, tableDiv: 'times-div-ORANGE_HRM_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-ORANGE_HRM_Suite">
+              </div> <!-- times-div-ORANGE_HRM_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ORANGE_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ORANGE HRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_01_ValidateaddingUserWithAllFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_01_ValidateaddingUserWithAllFields</b><br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :F<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :word5585<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Password. :Anusha@123<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Confirm password. :Anusha@123<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering User name Search input :word5585<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Clicking On Search Button.<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Fetching User Name<br></span></span>
+                <span class="reporter-method-output"><span style='color: green;font-size: 14px;'>Expected [ word5585 ] : Actual [ word5585 ]<br></span></span>
+                <span class="reporter-method-output"><a href="./Screenshot/1534695591079.png">ScreenShot : Validating User Name<br></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_02_ValidateaddingUserWithMandatoryFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_02_ValidateaddingUserWithMandatoryFields</b><br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :F<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :battaglia5592<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering User name Search input :battaglia5592<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Clicking On Search Button.<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Fetching User Name<br></span></span>
+                <span class="reporter-method-output"><span style='color: green;font-size: 14px;'>Expected [ battaglia5592 ] : Actual [ battaglia5592 ]<br></span></span>
+                <span class="reporter-method-output"><a href="./Screenshot/1534695613504.png">ScreenShot : Validating User Name<br></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_03_NullValueInEmployeeNameField</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_03_NullValueInEmployeeNameField</b><br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Employee Name. :burroughs5615<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Fetching Validation Error<br></span></span>
+                <span class="reporter-method-output"><span style='color: green;font-size: 14px;'>Expected [ Required ] : Actual [ Required ]<br></span></span>
+                <span class="reporter-method-output"><a href="./Screenshot/1534695615787.png">ScreenShot : Validating Validation Error<br></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_01_ValidateaddingJobWithAllFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'><b>Executing Test Case : TC_01_ValidateaddingJobWithAllFields</b><br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Clicking on Add Job Button.<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Job Title. :Sales<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Job Description. :Testing<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Selecting file. :E:\Anusha\Manual\Pictures\123.png<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Entering Note. :Testing note<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Clicking On Save button.<br></span></span>
+                <span class="reporter-method-output"><span style='color: darkblue;font-size: 14px;'>Fetching job creation popup.<br></span></span>
+                <span class="reporter-method-output"><span style='color: red;font-size: 18px;'><br>Expected [ Successfully Saved Close ] : Actual [ Successfully Saved
+Close ]<br></span></span>
+                <span class="reporter-method-output"><a href="E:\Anusha\Selenium\23-07-2018\workspace\orangehrm-selenium-testng-001/build/reports/ExtentReports/Screenshot/1534695642486.png">ScreenShot<br></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ORANGE_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ORANGE_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">orange.hrm.tests.TS_01_Verify_Users_Module</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">14303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_ValidateaddingUserWithAllFields</span>
+                <span class="method-start">15960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">22275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">22277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_02_ValidateaddingUserWithMandatoryFields</span>
+                <span class="method-start">23522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">44630 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">44630 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_03_NullValueInEmployeeNameField</span>
+                <span class="method-start">45934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">46893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">46893 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">orange.hrm.tests.TS_02_Verify_Job_Module</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">47979 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">61804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_ValidateaddingJobWithAllFields</span>
+                <span class="method-start">62776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">73564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">73564 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

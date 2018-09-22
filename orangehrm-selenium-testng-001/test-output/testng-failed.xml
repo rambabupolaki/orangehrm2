@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Reactor CX Suite]">
+  <test thread-count="5" name="TS_01_Verify_Admin_Module(failed)">
+    <classes>
+      <class name="orange.hrm.tests.TS_01_Verify_Users_Module">
+        <methods>
+          <include name="TC_02_ValidateaddingUserWithMandatoryFields"/>
+          <include name="TC_03_NullValueInEmployeeNameField"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- orange.hrm.tests.TS_01_Verify_Users_Module -->
+      <class name="orange.hrm.tests.TS_02_Verify_Job_Module">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_ValidateaddingJobWithAllFields"/>
+        </methods>
+      </class> <!-- orange.hrm.tests.TS_02_Verify_Job_Module -->
+    </classes>
+  </test> <!-- TS_01_Verify_Admin_Module(failed) -->
+</suite> <!-- Failed suite [Reactor CX Suite] -->
